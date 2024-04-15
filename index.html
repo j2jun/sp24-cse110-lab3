@@ -72,4 +72,37 @@
     </section>
 
 </body>
+
+<body>
+    <h1>Meeting Input Form</h1>
+    <form action="/submit-meeting-details" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Meeting Details</legend>
+
+            <label for="attendance">Attendance:</label>
+            <textarea id="attendance" name="attendance" placeholder="Enter names separated by commas" required></textarea><br><br>
+
+            <label for="agenda">Agenda:</label>
+            <textarea id="agenda" name="agenda" placeholder="Enter agenda items, each on a new line" required></textarea><br><br>
+
+            <label for="unfinished-business">Unfinished Business from Last Meeting:</label>
+            <textarea id="unfinished-business" name="unfinishedBusiness" placeholder="Enter unfinished business items, each on a new line" required></textarea><br><br>
+
+            <label for="new-business">New Business:</label>
+            <textarea id="new-business" name="newBusiness" placeholder="Enter new business items, each on a new line" required></textarea><br><br>
+
+            <label for="miscellaneous">Miscellaneous:</label>
+            <textarea id="miscellaneous" name="miscellaneous" placeholder="Enter any additional comments or concerns" required></textarea><br><br>
+
+            <label for="video-upload">Upload Video Presentation:</label>
+            <input type="file" id="video-upload" name="videoUpload" accept="video/mp4"><br><br>
+
+            <label for="audio-upload">Upload Audio Recording Image:</label>
+            <input type="file" id="audio-upload" name="audioUpload" accept="image/jpeg"><br><br>
+
+            <input type="submit" value="Submit Meeting Details">
+        </fieldset>
+    </form>
+</body>
+
 </html>
