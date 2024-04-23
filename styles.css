@@ -82,7 +82,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: darken(var(--accent-color), 10%);
+    background-color: #0056b3;
 }
 
 /* design adjustments */
