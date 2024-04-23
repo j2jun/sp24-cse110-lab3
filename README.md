@@ -1,3 +1,3 @@
-# CSE 110 - Lab 2
+# CSE 110 - Lab 3
 
-Link to the Meeting Minutes: [https://j2jun.github.io/cse110-lab2/](https://j2jun.github.io/cse110-lab2/)
+URL: [https://j2jun.github.io/sp24-cse110-lab3/](https://j2jun.github.io/sp24-cse110-lab3/)
